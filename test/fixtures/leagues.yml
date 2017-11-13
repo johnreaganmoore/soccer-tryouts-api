@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  website: MyString
+  logo: MyString
+  level: MyString
+  indoor: false
+  season_start: MyString
+  season_end: MyString
+
+two:
+  name: MyString
+  website: MyString
+  logo: MyString
+  level: MyString
+  indoor: false
+  season_start: MyString
+  season_end: MyString

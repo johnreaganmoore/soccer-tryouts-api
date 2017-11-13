@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  label: MyString
+  info: MyString
+  registration: MyString
+  start_date: 2017-11-13
+  end_date: 2017-11-13
+  fee: 1
+  locality: MyString
+  region: MyString
+  team: one
+
+two:
+  label: MyString
+  info: MyString
+  registration: MyString
+  start_date: 2017-11-13
+  end_date: 2017-11-13
+  fee: 1
+  locality: MyString
+  region: MyString
+  team: two
