@@ -1,7 +1,7 @@
 class TryoutsController < ApplicationController
 
   def index
-    @tryouts = Tryout.order(start_date: :asc)
+    @tryouts = Tryout.where("DATE(start_date) >= ?", Date.today).order(start_date: :asc)
     render json: @tryouts, status: :ok
   end
 
@@ -46,9 +46,6 @@ class TryoutsController < ApplicationController
    @tryout = Tryout.find(params[:id])
    @tryout.destroy
    head :no_content
-   # respond_to do |format|
-   #  format.jsonapi { render jsonapi: @tryouts, status: :deleted, location: @tryouts }
-   # end
   end
 
   # Only allow a trusted parameter "white list" through.
