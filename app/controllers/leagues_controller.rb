@@ -57,7 +57,8 @@ class LeaguesController < ApplicationController
       :level,
       :season_start,
       :season_end,
-      :indoor
+      :indoor,
+      :marker_icon
     ])
   end
 
